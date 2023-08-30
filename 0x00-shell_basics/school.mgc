@@ -1,2 +1,2 @@
 #!/bin/bash
-$1 --mim-type -m school.mgc *
+$1 --mim-type $2 $3
