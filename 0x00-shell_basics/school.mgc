@@ -1,2 +1,2 @@
-#!/bin/bash
-$1 --mime-type $2 $3
+0 string SCHOOL data
+!:mime text/School
