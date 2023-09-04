@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -F . | grep -v '/$'
+ls -F . | grep -v '/$' | head -n 10
