@@ -1,2 +1,2 @@
 #!/bin/bash
-$ find . -type f -name "*.c" -printf "%f %s\n" | sed 's/\.c$//' | xargs -I{} basename {}
+$ find . -type f -name "*.git" -printf "%f %s\n" | sed 's/\.gif$//' | xargs -I{} basename {}
