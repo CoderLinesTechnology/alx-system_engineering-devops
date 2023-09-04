@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -n 1 iacta | tr '\n' '\0' >> iacta && tr '\0' '\n' < iacta >> iacta
+cat iacta | echo $(tail -1) >> iacta
