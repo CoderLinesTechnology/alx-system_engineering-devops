@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -maxdepth 2 -name "*.gif" | basename .gif | sort
