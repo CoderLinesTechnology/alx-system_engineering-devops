@@ -1,2 +1,2 @@
 #!/bin/bash
-find /etc/passwd -type f -exec grep -i -l "Root\|root" {} +
+cat /etc/passwd | grep root
