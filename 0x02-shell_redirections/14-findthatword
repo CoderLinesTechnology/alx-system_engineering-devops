@@ -1,2 +1,2 @@
 #!/bin/bash
-find /etc/passwd -name "*[rR]oot*"
+find /etc/passwd -type f -exec grep -i -l "Root\|root" {} +
